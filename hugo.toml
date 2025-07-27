@@ -1,5 +1,5 @@
 baseURL = 'https://juegosaccesibles.oriolgomez.com/'
-languageCode = 'es-es'
+languageCode = 'es'
 title = 'Juegos Accesibles'
 defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = false
@@ -13,45 +13,40 @@ ignoreImports = false
 path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
 [languages]
-  [languages.es]
-    disabled = false
-    languageCode = 'es'
-    languageDirection = 'ltr'
-    pluralizeListTitles = false
-    languageName = 'es'
-    title = 'Juegos Accesibles'
-    weight = 0
+[languages.es]
+disabled = false
+languageCode = 'es'
+languageDirection = 'ltr'
+pluralizeListTitles = false
+languageName = 'es'
+title = 'Juegos Accesibles'
+weight = 0
 
 [taxonomies]
-  platform = "platforms"
-  language = "languages"
-  genre = "genres"
+platform = "platforms"
+language = "languages"
+genre = "genres"
 
-  [[menu.main]]
-  name = "Inicio"
-    weight = 1
-    url = "/"
+[params]
+mainSections = ["juego"]
 
-    [[menu.main]]
-    name = "Juegos en español"
-    weight = 2
-    url = "/languages/español/"
-
-    [[menu.main]]
-    name = "Juegos para Windows"
-    weight = 4
-    url = "/platforms/windows/"
-    [[menu.main]]
-    name = "Juegos para iOS"
-    weight = 5
-    url = "/platforms/ios/"
-    [[menu.main]]
-    name = "Juegos para Android"
-    weight = 6
-    url = "/platforms/android/"
-
-    [[menu.main]]
-    name = "Juegos para Mac"
-    weight = 7
-    url = "/platforms/mac/"
-
+[[menu.main]]
+name = "Juegos para Windows"
+weight = 4
+url = "/platforms/windows/"
+[[menu.main]]
+name = "Juegos para iOS"
+weight = 5
+url = "/platforms/ios/"
+[[menu.main]]
+name = "Juegos para Android"
+weight = 6
+url = "/platforms/android/"
+[[menu.main]]
+name = "Juegos para Mac"
+weight = 7
+url = "/platforms/mac/"
+[[menu.main]]
+name = "Juegos por navegador"
+weight = 7
+url = "/platforms/web/"
