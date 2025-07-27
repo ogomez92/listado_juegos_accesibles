@@ -1,6 +1,5 @@
 <div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">{{ humanize .Section }}</span>
     <h3 class="f3 near-black">
       <a href="{{ .Permalink }}" class="link black dim">
         {{ .Title }}
@@ -14,15 +13,12 @@
     </h3>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       {{ .Summary }}
-      <div class="nested-links f5 lh-copy nested-copy-line-height">
-        {{ .Summary }}
-        {{ if .Params.web }}
-        <a href="{{ .Params.web }}" class="link black dim">Página Oficial de {{ .Title }}</a>
-        {{ end }}
-        {{ if .Params.descarga }}
-        <a href="{{ .Params.descarga }}" class="link black dim">descargar {{ .Title }}</a>
-        {{ end }}
+      {{ if .Params.web }}
+      <a href="{{ .Params.web }}" class="link black dim">Página Oficial de {{ .Title }}</a>
+      {{ end }}
+      {{ if .Params.descarga }}
+      <a href="{{ .Params.descarga }}" class="link black dim">descargar {{ .Title }}</a>
+      {{ end }}
 
-      </div>
     </div>
   </div>
