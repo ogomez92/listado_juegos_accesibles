@@ -1,4 +1,4 @@
-baseURL = 'https://juegosaccesibles.oriolgomez.com/'
+baseURL = 'https://juegos.oriolgomez.com/'
 languageCode = 'es'
 title = 'Juegos Accesibles'
 defaultContentLanguage = 'es'
