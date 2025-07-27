@@ -1,7 +1,6 @@
 baseURL = 'https://juegosaccesibles.oriolgomez.com/'
 languageCode = 'es'
 title = 'Juegos Accesibles'
-publishdir = "/home/sites/juegos"
 defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = false

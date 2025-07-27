@@ -3,7 +3,7 @@ date = '2025-07-24T07:25:38+02:00'
 title = 'Beatstar'
 languages = ['español', 'inglés']
 platforms = ['windows', 'mac']
-genres = ['Ritmo', 'Minijuegos', 'Memoria', 'Para niños (puede contener contenido creado por usuarios sin supervisar)']
+genres = ['musical', 'Ritmo', 'Minijuegos', 'Memoria', 'Para niños (puede contener contenido creado por usuarios sin supervisar)']
 web = 'https://www.oriolgomez.com/'
 descarga = 'https://oriolgomez.com/es/game/'
 +++

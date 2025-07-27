@@ -29,12 +29,14 @@ you can create a layouts directory, just for that section.
   document.addEventListener('DOMContentLoaded', function () {
     var checkbox = document.getElementById('toggle-spanish');
     checkbox.addEventListener('change', function () {
-      var allElements = document.querySelectorAll('game-container'); // Adjust the selector to match your elements
+      var allElements = document.querySelectorAll('.game-container'); // Adjust the selector to match your elements
+      console.log(`elements found ${allElements.length}`)
       allElements.forEach(function (element) {
         if (checkbox.checked) {
           // Hide elements not containing 'spanish-content' class
           if (!element.classList.contains('spanish')) {
             element.style.display = 'none';
+            console.log('hiding');
           }
         } else {
           // Show all elements

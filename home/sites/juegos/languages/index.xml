@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Languages on Juegos Accesibles</title>
+    <link>http://localhost:1313/languages/</link>
+    <description>Recent content in Languages on Juegos Accesibles</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 27 Jul 2025 18:17:33 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/languages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Español</title>
+      <link>http://localhost:1313/languages/espa%C3%B1ol/</link>
+      <pubDate>Sun, 27 Jul 2025 18:17:33 +0200</pubDate>
+      <guid>http://localhost:1313/languages/espa%C3%B1ol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inglés</title>
+      <link>http://localhost:1313/languages/ingl%C3%A9s/</link>
+      <pubDate>Sun, 27 Jul 2025 18:17:33 +0200</pubDate>
+      <guid>http://localhost:1313/languages/ingl%C3%A9s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Otros</title>
+      <link>http://localhost:1313/languages/otros/</link>
+      <pubDate>Sun, 27 Jul 2025 18:17:33 +0200</pubDate>
+      <guid>http://localhost:1313/languages/otros/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alemán</title>
+      <link>http://localhost:1313/languages/alem%C3%A1n/</link>
+      <pubDate>Sun, 27 Jul 2025 15:00:14 +0200</pubDate>
+      <guid>http://localhost:1313/languages/alem%C3%A1n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Francés</title>
+      <link>http://localhost:1313/languages/franc%C3%A9s/</link>
+      <pubDate>Sun, 27 Jul 2025 15:00:14 +0200</pubDate>
+      <guid>http://localhost:1313/languages/franc%C3%A9s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Italiano</title>
+      <link>http://localhost:1313/languages/italiano/</link>
+      <pubDate>Sun, 27 Jul 2025 15:00:14 +0200</pubDate>
+      <guid>http://localhost:1313/languages/italiano/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portugués</title>
+      <link>http://localhost:1313/languages/portugu%C3%A9s/</link>
+      <pubDate>Sun, 27 Jul 2025 15:00:14 +0200</pubDate>
+      <guid>http://localhost:1313/languages/portugu%C3%A9s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruso</title>
+      <link>http://localhost:1313/languages/ruso/</link>
+      <pubDate>Sun, 27 Jul 2025 15:00:14 +0200</pubDate>
+      <guid>http://localhost:1313/languages/ruso/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Serbio</title>
+      <link>http://localhost:1313/languages/serbio/</link>
+      <pubDate>Sun, 27 Jul 2025 15:00:14 +0200</pubDate>
+      <guid>http://localhost:1313/languages/serbio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Japonés</title>
+      <link>http://localhost:1313/languages/japon%C3%A9s/</link>
+      <pubDate>Sun, 27 Jul 2025 14:34:00 +0200</pubDate>
+      <guid>http://localhost:1313/languages/japon%C3%A9s/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

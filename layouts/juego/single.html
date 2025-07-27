@@ -1,0 +1,56 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{ $section := .Site.GetPage "section" .Section }}
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <h1 class="f1 athelas mb1">
+        {{- .Title -}}
+      </h1>
+      {{ with .Params.author }}
+      <p class="tracked">
+         Añadido por <strong>{{ . | markdownify }}</strong>
+      </p>
+      {{ end }}
+      {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+      {{- .Content -}}
+      {{- partial "tags.html" . -}}
+        ({{ range $index, $element := .Params.platforms }}{{ if $index }}, {{ end }}{{ $element }}{{ end }})
+      <p>
+    Idiomas: {{ range $index, $element := .Params.languages }}{{ if $index }}, {{ end }}{{ $element }}{{ end }}
+  </p>
+  <p>
+    Géneros: {{ range $index, $element := .Params.genres }}{{ if $index }}, {{ end }}{{ $element }}{{ end }}
+  </p>
+
+  {{ if .Date }}
+  <div class="f6">
+    Fecha de inclusión en la página: {{ .Date.Format "02-01-2006" }}
+  </div>
+  {{ end }}
+
+  <div class="nested-links f5 lh-copy nested-copy-line-height">
+    {{ .Summary }}
+    {{ if .Params.web }}
+    <a href="{{ .Params.web }}" class="link black dim">Página Oficial de {{ .Params.title }}</a>
+    {{ end }}
+    {{ if .Params.descarga }}
+    <a href="{{ .Params.descarga }}" class="link black dim">descargar {{ .CurrentSection.Title }}</a>
+    {{ end }}
+  </div>
+</div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+      {{- partial "menu-contextual.html" . -}}
+    </aside>
+
+  </article>
+{{ end }}

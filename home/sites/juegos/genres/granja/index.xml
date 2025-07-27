@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Granja on Juegos Accesibles</title>
+    <link>http://localhost:1313/genres/granja/</link>
+    <description>Recent content in Granja on Juegos Accesibles</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 27 Jul 2025 18:17:33 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/genres/granja/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stardew Valley con Stardew Access</title>
+      <link>http://localhost:1313/juego/stardew/</link>
+      <pubDate>Sun, 27 Jul 2025 18:17:33 +0200</pubDate>
+      <guid>http://localhost:1313/juego/stardew/</guid>
+      <description>&lt;p&gt;Stardew Valley es un juego donde el objetivo es la construcción de una granja.&#xA;La página oficial que os he puesto os llevará al GitHub de descarga de Stardew Access, ahí encontraréis todas las guías.&#xA;Eso sí, está en inglés. Si alguien conoce la página en español, que lo comente. ¡Gracias!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
