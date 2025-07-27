@@ -1,4 +1,10 @@
-<div class="mb3 pa4 mid-gray overflow-hidden">
+   {{ $class := "" }}
+   {{ with .Params.languages }}
+     {{ if in . "español" }}
+       {{ $class = "spanish" }}
+     {{ end }}
+   {{ end }}
+<div class="{{$class}} game-container mb3 pa4 mid-gray overflow-hidden">
   <h2 class="f3 near-black">
     <a href="{{ .Permalink }}" class="link black dim">
       {{ .Title }}

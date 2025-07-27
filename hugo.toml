@@ -17,6 +17,7 @@ path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
     disabled = false
     languageCode = 'es'
     languageDirection = 'ltr'
+    pluralizeListTitles = false
     languageName = 'es'
     title = 'Juegos Accesibles'
     weight = 0
