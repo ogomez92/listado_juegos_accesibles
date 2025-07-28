@@ -5,6 +5,8 @@ defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = false
 disableLanguages = []
+[pagination]
+pagerSize=40
 [module]
 [[module.imports]]
 disable = false

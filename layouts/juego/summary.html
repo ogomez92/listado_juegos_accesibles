@@ -26,11 +26,30 @@
 
   <div class="nested-links f5 lh-copy nested-copy-line-height">
     {{ .Summary }}
-    {{ if .Params.web }}
-    <a href="{{ .Params.web }}" class="link black dim">Página Oficial de {{ .Title }}</a>
+        {{ if .Params.web }}
+    <a target="_blank" href="{{ .Params.web }}" class="link black dim">Página Oficial de {{ .Params.title }}</a>
     {{ end }}
     {{ if .Params.descarga }}
-    <a href="{{ .Params.descarga }}" class="link black dim">descargar {{ .Title }}</a>
+    <a target="_blank" href="{{ .Params.descarga }}" class="link black dim">descargar {{ .Title }}</a>
     {{ end }}
+    {{ if .Params.ios }}
+    <a target="_blank" href="{{ .Params.ios }}" class="link black dim">Versión para iOS de {{ .Title }}</a>
+    {{ end }}
+    {{ if .Params.android }}
+    <a target="_blank" href="{{ .Params.android }}" class="link black dim">Versión para Android de {{ .Title }}</a>
+    {{ end }}
+    {{ if .Params.windows }}
+    <a target="_blank" href="{{ .Params.windows }}" class="link black dim">Versión para Windows de {{ .Title }}</a>
+    {{ end }}
+    {{ if .Params.mac }}
+    <a target="_blank" href="{{ .Params.mac }}" class="link black dim">Versión para mac de {{ .Title }}</a>
+    {{ end }}
+    {{ if .Params.steam }}
+    <a target="_blank" href="{{ .Params.steam }}" class="link black dim">enlace a Steam de {{ .Title }}</a>
+    {{ end }}
+    {{ if .Params.itch }}
+    <a target="_blank" href="{{ .Params.itch }}" class="link black dim">enlace a Itch.io de {{ .Title }}</a>
+    {{ end }}
+
   </div>
 </div>

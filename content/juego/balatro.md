@@ -1,5 +1,6 @@
 +++
 date = '2025-07-27T14:34:00+02:00'
+steam='https://store.steampowered.com/app/2379780/Balatro/'
 
 title = 'Balatro'
 languages = ['español', 'inglés', 'japonés', 'francés', 'italiano', 'alemán', 'portugués']
